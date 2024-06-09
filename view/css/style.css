@@ -276,6 +276,8 @@ footer {
 }
 
 .tituloDaAba {
+   width: 50vw;
+   text-align: left;
    font-size: 50px;
    margin-top: 3%;
    align-items: center;
