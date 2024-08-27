@@ -58,6 +58,7 @@ class Header extends HTMLElement {
                 </ul>
             </nav>
         </header>
+        <div class="faixa"></div>
         `;
     }
 }
