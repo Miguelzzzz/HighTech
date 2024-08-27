@@ -8,7 +8,6 @@
 
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +29,7 @@
 body {
     font: normal 18px var(--font-padrao);
     background-color: var(--cor-fundo);
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -239,3 +239,16 @@ footer {
     min-height: calc(100vh - 183px);
     display: grid;
 }
+
+aside {
+    width: 20%; 
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 55px;  
+    left: 0; 
+    font-size: 10px;
+}
+ 
