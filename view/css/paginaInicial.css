@@ -20,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 6%;
+    flex-direction: row;
 }
 
 .cardColor {
@@ -64,6 +66,23 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+.estudoViabilidade {
+    background-color: #9AE4C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 10%;
+    height: 500px;
+    width: 100%;
+}
+
+.estudoViabilidadeCard {
+    margin-right: 69%;
+}
+
 
 .botaoSaibaMais {
     padding: 10px 30px;
