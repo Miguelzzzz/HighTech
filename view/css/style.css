@@ -252,9 +252,17 @@ aside {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
-    margin-top: 0.01%; 
+    text-align: center;
+    margin-top: 0.65%; 
     left: 0; 
-    font-size: 85%;
+    font-size: 70%;
+    
+}
+
+aside h4 {
+    font-weight: 500;
+    font-size: 140%;
+    margin-left: 4%;
+
 }
  
