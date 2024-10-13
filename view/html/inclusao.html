@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="../nav/header.js"></script>
     <link rel="stylesheet" href="../nav/header.css">
+    <link rel="stylesheet" href="../css/funcaoAcessibilidade.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tota11y/0.1.6/tota11y.min.js"></script>
+    <script src="../js/funcoesAcessibilidade.js"></script>
 </head>
 
 <body>
@@ -24,6 +27,18 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+
+    <button class="accessibility-btn" onclick="toggleAccessibilityMenu()"><img src="../img/iconFuncoesAcessibilidade.png" width="30px" height="30px"></button>
+
+    <div id="accessibility-menu" style="display: none;">
+        <button onclick="increaseTextSize()">Aumentar Texto</button>
+        <button onclick="decreaseTextSize()">Diminuir Texto</button>
+        <button onclick="toggleContrast()">Alto Contraste</button>
+        <button onclick="toggleGrayscale()">Escala de Cinza</button>
+        <button onclick="increaseLineSpacing()">Aumentar Espaçamento de Linhas</button>
+        <button onclick="decreaseLineSpacing()">Diminuir Espaçamento de Linhas</button>
+        <button onclick="resetAccessibility()">Redefinir</button>
+    </div>
 
     <main-header base-url="./" base-nav="../../" base-img="../"></main-header>
     <div class="paginasPesquisa">

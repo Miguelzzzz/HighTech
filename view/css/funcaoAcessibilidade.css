@@ -1,0 +1,41 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.accessibility-btn {
+    position: fixed;
+    top: 160px;
+    right: 10px;
+    background-color: #1c76d6;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; 
+    margin-top: 16%;
+}
+
+#accessibility-menu {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    background-color: #007bff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: none;
+    z-index: 999; 
+    margin-top: 16%;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.high-contrast {
+    background-color: black;
+    color: yellow;
+}

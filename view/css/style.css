@@ -2,10 +2,9 @@
 
 
 .fundo {
-  background-image: url(../img/fundo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 * {
